@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pengumuman Kelulusan SPMB SMK 5 Kepahiang</title>
+  <title>Pengumuman Kelulusan SMKN 5 Kepahiang</title>
   <style>
     * { box-sizing: border-box; }
     body {
@@ -92,8 +92,8 @@
     <h2>Pengumuman Kelulusan SPMB</h2>
 
     <div id="formInput">
-      <p>Masukkan TOKEN PENDAFTARAN Anda</p>
-      <input type="text" id="token" placeholder="Contoh: SMK50907001" />
+      <p>Masukkan NISN Anda</p>
+      <input type="text" id="token" placeholder="Contoh: 0098765698" />
       <button id="cekBtn" onclick="checkGraduation()">Cek Kelulusan</button>
     </div>
 
@@ -102,7 +102,7 @@
     <div id="result"></div>
     <button id="keluarBtn" onclick="keluar()">Keluar</button>
   </div>
-  <footer>&copy; 2025 - SMK Negeri 5 Kepahiang</footer>
+  <footer>&copy; 2026 - SMK Negeri 5 Kepahiang</footer>
 
   <script>
     let dataList = [];
@@ -134,7 +134,7 @@
       const formInput = document.getElementById("formInput");
 
       if (!token) {
-        pesanError.textContent = "Silakan masukkan TOKEN PENDAFTARAN terlebih dahulu.";
+        pesanError.textContent = "Silakan masukkan NISN terlebih dahulu.";
         pesanError.style.display = "block";
         return;
       } else {
