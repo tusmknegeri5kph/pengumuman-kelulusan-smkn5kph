@@ -105,104 +105,105 @@
   <footer>&copy; 2026 - SMK Negeri 5 Kepahiang</footer>
 
   <script>
-    let dataList = [];
+<script>
+  let dataList = [];
 
-    fetch('https://tusmknegeri5kph.github.io/PengumumanSPMB/data_kelulusan_2025.csv')
-      .then(response => response.text())
-      .then(text => {
-        const rows = text.split("\n").slice(1);
-        dataList = rows.map(row => {
-          const cols = row.split(",");
-          return {
-            token: cols[0]?.trim(),
-            nisn: cols[1]?.trim(),
-            nama: cols[2]?.trim(),
-            asal: cols[3]?.trim(),
-            diterima: cols[4]?.trim(),
-            status: cols[5]?.trim()
-          };
-        });
+  fetch('https://tusmknegeri5kph.github.io/PengumumanSPMB/data_kelulusan_2025.csv')
+    .then(response => response.text())
+    .then(text => {
+      const rows = text.split("\n").slice(1);
+      dataList = rows.map(row => {
+        const cols = row.split(",");
+        return {
+          nisn: cols[0]?.trim(),
+          nama: cols[1]?.trim(),
+          tempatlahir: cols[2]?.trim(),
+          tanggallahir: cols[3]?.trim(),
+          jurusan: cols[4]?.trim(),
+          status: cols[5]?.trim()
+        };
       });
+    });
 
-    function checkGraduation() {
-      const token = document.getElementById("token").value.trim();
-      const loading = document.getElementById("loading");
-      const resultDiv = document.getElementById("result");
-      const cekBtn = document.getElementById("cekBtn");
-      const keluarBtn = document.getElementById("keluarBtn");
-      const pesanError = document.getElementById("pesanError");
-      const formInput = document.getElementById("formInput");
+  function checkGraduation() {
+    const nisn = document.getElementById("token").value.trim();
+    const loading = document.getElementById("loading");
+    const resultDiv = document.getElementById("result");
+    const cekBtn = document.getElementById("cekBtn");
+    const keluarBtn = document.getElementById("keluarBtn");
+    const pesanError = document.getElementById("pesanError");
+    const formInput = document.getElementById("formInput");
 
-      if (!token) {
-        pesanError.textContent = "Silakan masukkan NISN terlebih dahulu.";
-        pesanError.style.display = "block";
-        return;
-      } else {
-        pesanError.style.display = "none";
-      }
-
-      loading.style.display = "block";
-      resultDiv.style.display = "none";
-      cekBtn.style.display = "none";
-
-      const found = dataList.find(d => d.token === token);
-      setTimeout(() => showResult(found), 500);
+    if (!nisn) {
+      pesanError.textContent = "Silakan masukkan NISN terlebih dahulu.";
+      pesanError.style.display = "block";
+      return;
+    } else {
+      pesanError.style.display = "none";
     }
 
-    function showResult(data) {
-      const resultDiv = document.getElementById("result");
-      const loading = document.getElementById("loading");
-      const keluarBtn = document.getElementById("keluarBtn");
-      const formInput = document.getElementById("formInput");
+    loading.style.display = "block";
+    resultDiv.style.display = "none";
+    cekBtn.style.display = "none";
 
-      loading.style.display = "none";
+    const found = dataList.find(d => d.nisn === nisn);
+    setTimeout(() => showResult(found), 500);
+  }
 
-      if (!data) {
-        resultDiv.innerHTML = "<p style='color:red; font-weight:bold;'>Data tidak ditemukan. Pastikan TOKEN benar.</p>";
-        resultDiv.style.display = "block";
-        keluarBtn.style.display = "block";
-        return;
-      }
+  function showResult(data) {
+    const resultDiv = document.getElementById("result");
+    const loading = document.getElementById("loading");
+    const keluarBtn = document.getElementById("keluarBtn");
+    const formInput = document.getElementById("formInput");
 
-      formInput.style.display = "none";
+    loading.style.display = "none";
 
-      const statusLulus = data.status.toLowerCase() === "lulus";
-      resultDiv.innerHTML = `
-        <h3 style="text-align:center;">🎓 BUKTI KELULUSAN</h3>
-        <p><strong>Nama:</strong> ${data.nama}</p>
-        <p><strong>NISN:</strong> ${data.nisn}</p>
-        <p><strong>Asal Sekolah:</strong> ${data.asal}</p>
-        <p><strong>Lulus Administrasi:</strong> ${data.diterima}</p>
-        <p><strong>Status:</strong> <span style="color:${statusLulus ? 'green' : 'red'}; font-weight:bold;">${data.status}</span></p>
-      `;
+    if (!data) {
+      resultDiv.innerHTML = "<p style='color:red; font-weight:bold;'>Data tidak ditemukan. Pastikan NISN benar.</p>";
       resultDiv.style.display = "block";
       keluarBtn.style.display = "block";
-
-      if (statusLulus) {
-        const ucapan = `Selamat kepada ${data.nama}! Anda dinyatakan LULUS administrasi di ${data.diterima}`;
-        speakText(ucapan);
-        startFireworks();
-      }
+      return;
     }
 
-    function keluar() {
-      document.getElementById("token").value = "";
-      document.getElementById("result").style.display = "none";
-      document.getElementById("loading").style.display = "none";
-      document.getElementById("keluarBtn").style.display = "none";
-      document.getElementById("cekBtn").style.display = "block";
-      document.getElementById("pesanError").style.display = "none";
-      document.getElementById("formInput").style.display = "block";
-    }
+    formInput.style.display = "none";
 
-    function speakText(text) {
-      if ('speechSynthesis' in window) {
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'id-ID';
-        utterance.volume = 1;
-        utterance.rate = 1;
-        utterance.pitch = 1;
-        speechSynthesis.speak(utterance);
+    const statusLulus = data.status.toLowerCase() === "lulus";
+
+    resultDiv.innerHTML = `
+      <h3 style="text-align:center;">🎓 BUKTI KELULUSAN</h3>
+      <p><strong>Nama:</strong> ${data.nama}</p>
+      <p><strong>NISN:</strong> ${data.nisn}</p>
+      <p><strong>Tempat Lahir:</strong> ${data.tempatlahir}</p>
+      <p><strong>Tanggal Lahir:</strong> ${data.tanggallahir}</p>
+      <p><strong>Program Keahlian:</strong> ${data.jurusan}</p>
+      <p><strong>Status:</strong> <span style="color:${statusLulus ? 'green' : 'red'}; font-weight:bold;">${data.status}</span></p>
+    `;
+
+    resultDiv.style.display = "block";
+    keluarBtn.style.display = "block";
+
+    if (statusLulus) {
+      const ucapan = `Selamat kepada ${data.nama}! Anda dinyatakan LULUS.`;
+      speakText(ucapan);
+      startFireworks();
+    }
+  }
+
+  function keluar() {
+    document.getElementById("token").value = "";
+    document.getElementById("result").style.display = "none";
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("keluarBtn").style.display = "none";
+    document.getElementById("cekBtn").style.display = "block";
+    document.getElementById("pesanError").style.display = "none";
+    document.getElementById("formInput").style.display = "block";
+  }
+
+  function speakText(text) {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'id-ID';
+      speechSynthesis.speak(utterance);
       }
     }
 
