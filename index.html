@@ -107,7 +107,7 @@
 <script>
   let dataList = [];
 
-  fetch('https://tusmknegeri5kph.github.io/PengumumanSPMB/data_kelulusan_2025.csv')
+  fetch('https://raw.githubusercontent.com/tusmknegeri5kph/PengumumanSPMB/main/data_kelulusan_2025.csv')
     .then(response => response.text())
     .then(text => {
       const rows = text.split("\n").slice(1);
