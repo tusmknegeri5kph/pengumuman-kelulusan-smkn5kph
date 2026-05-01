@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pengumuman Kelulusan SMKN 5 Kepahiang</title>
+
   <style>
     * { box-sizing: border-box; }
     body {
@@ -15,8 +16,8 @@
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
-      overflow-x: hidden;
     }
+
     .container {
       max-width: 420px;
       width: 90%;
@@ -26,233 +27,186 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       text-align: center;
-      z-index: 1;
-      position: relative;
     }
-    canvas#fireworksCanvas {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      pointer-events: none;
-      z-index: 0;
-    }
+
     img.logo {
       max-width: 80px;
-      display: block;
-      margin: 20px auto 10px;
+      margin: 20px auto;
     }
-    h2 { margin: 0 0 10px; }
-    input[type="text"], button {
+
+    input, button {
       width: 100%;
       padding: 12px;
       margin: 10px 0;
       border-radius: 8px;
       font-size: 16px;
-      border: 1px solid #ccc;
     }
-    #cekBtn {
-      background-color: #0d47a1;
-      color: #fff;
-      font-weight: bold;
-    }
-    #keluarBtn {
-      background-color: #d32f2f;
-      color: #fff;
-      display: none;
-      font-weight: bold;
-    }
+
+    #cekBtn { background:#0d47a1; color:white; }
+    #keluarBtn { background:#d32f2f; color:white; display:none; }
+
     #result {
-      display: none;
-      margin-top: 20px;
-      background: #e8f5e9;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display:none;
+      margin-top:20px;
+      background:#e8f5e9;
+      padding:15px;
+      border-radius:10px;
     }
-    #pesanError {
-      display: none;
-      color: red;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 10px;
+
+    #formInput { display:none; }
+
+    /* DIGITAL COUNTDOWN */
+    #digitalCountdown {
+      display:flex;
+      justify-content:center;
+      gap:10px;
+      margin-top:15px;
     }
-    footer {
-      font-size: 12px;
-      text-align: center;
-      margin-top: 30px;
-      z-index: 1;
+
+    .timeBox {
+      background:#0d47a1;
+      color:white;
+      padding:10px;
+      border-radius:10px;
+      width:70px;
+    }
+
+    .timeBox span {
+      font-size:22px;
+      font-weight:bold;
+      display:block;
+    }
+
+    .timeBox small {
+      font-size:12px;
     }
   </style>
 </head>
+
 <body>
-  <canvas id="fireworksCanvas"></canvas>
-  <div class="container">
-    <img src="https://i.imgur.com/gCpaQjN.png" alt="Logo Sekolah" class="logo" />
-    <h2>Pengumuman Kelulusan</h2>
-    <h2>SMK Negeri 5 Kepahiang</h2>
-    <h2>Tahun Ajaran 2025/2026</h2>
 
-    <div id="formInput">
-      <p>Masukkan NISN Anda</p>
-      <input type="text" id="token" placeholder="Contoh: 0098765698" />
-      <button id="cekBtn" onclick="checkGraduation()">Cek Kelulusan</button>
+<div class="container">
+
+  <img src="https://i.imgur.com/gCpaQjN.png" class="logo">
+
+  <h2>Pengumuman Kelulusan</h2>
+  <h2>SMK Negeri 5 Kepahiang</h2>
+  <h2>Tahun Ajaran 2025/2026</h2>
+
+  <!-- COUNTDOWN -->
+  <div id="countdownBox">
+    <h3>Pengumuman dibuka dalam:</h3>
+
+    <div id="digitalCountdown">
+      <div class="timeBox"><span id="days">00</span><small>Hari</small></div>
+      <div class="timeBox"><span id="hours">00</span><small>Jam</small></div>
+      <div class="timeBox"><span id="minutes">00</span><small>Menit</small></div>
+      <div class="timeBox"><span id="seconds">00</span><small>Detik</small></div>
     </div>
-
-    <div id="pesanError"></div>
-    <div id="loading" style="display:none; text-align:center;">Memeriksa data...</div>
-    <div id="result"></div>
-    <button id="keluarBtn" onclick="keluar()">Keluar</button>
   </div>
-  <footer>&copy; 2026 - SMK Negeri 5 Kepahiang</footer>
-  
+
+  <!-- FORM -->
+  <div id="formInput">
+    <p>Masukkan NISN Anda</p>
+    <input type="text" id="token">
+    <button id="cekBtn" onclick="checkGraduation()">Cek Kelulusan</button>
+  </div>
+
+  <div id="result"></div>
+  <button id="keluarBtn" onclick="keluar()">Keluar</button>
+
+</div>
+
 <script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  // ⏰ GANTI WAKTU DI SINI
+  const targetDate = new Date("2026-05-04T15:00:00+07:00").getTime();
+
+  const formInput = document.getElementById("formInput");
+  const countdownBox = document.getElementById("countdownBox");
+
+  const elDays = document.getElementById("days");
+  const elHours = document.getElementById("hours");
+  const elMinutes = document.getElementById("minutes");
+  const elSeconds = document.getElementById("seconds");
+
+  function updateCountdown(){
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    if(distance <= 0){
+      countdownBox.style.display = "none";
+      formInput.style.display = "block";
+      return;
+    }
+
+    const d = Math.floor(distance/(1000*60*60*24));
+    const h = Math.floor((distance/(1000*60*60))%24);
+    const m = Math.floor((distance/(1000*60))%60);
+    const s = Math.floor((distance/1000)%60);
+
+    elDays.textContent = String(d).padStart(2,'0');
+    elHours.textContent = String(h).padStart(2,'0');
+    elMinutes.textContent = String(m).padStart(2,'0');
+    elSeconds.textContent = String(s).padStart(2,'0');
+  }
+
+  setInterval(updateCountdown,1000);
+  updateCountdown();
+
+  // ================= CSV =================
   let dataList = [];
 
   fetch('https://raw.githubusercontent.com/tusmknegeri5kph/PengumumanSPMB/main/data_kelulusan_2025.csv')
-    .then(response => response.text())
-    .then(text => {
-      const rows = text.split("\n").slice(1);
-      dataList = rows.map(row => {
-        const cols = row.split(",");
-        return {
-          nisn: cols[0]?.trim(),
-          nama: cols[1]?.trim(),
-          tempatlahir: cols[2]?.trim(),
-          tanggallahir: cols[3]?.trim(),
-          jurusan: cols[4]?.trim(),
-          status: cols[5]?.trim()
-        };
-      });
+  .then(res=>res.text())
+  .then(text=>{
+    const rows = text.split("\n").slice(1);
+    dataList = rows.map(r=>{
+      const c = r.split(",");
+      return {
+        nisn: c[0]?.trim(),
+        nama: c[1]?.trim(),
+        tempat: c[2]?.trim(),
+        tanggal: c[3]?.trim(),
+        jurusan: c[4]?.trim(),
+        status: c[5]?.trim()
+      }
     });
+  });
 
-  function checkGraduation() {
+  window.checkGraduation = function(){
     const nisn = document.getElementById("token").value.trim();
-    const loading = document.getElementById("loading");
-    const resultDiv = document.getElementById("result");
-    const cekBtn = document.getElementById("cekBtn");
+    const result = document.getElementById("result");
     const keluarBtn = document.getElementById("keluarBtn");
-    const pesanError = document.getElementById("pesanError");
-    const formInput = document.getElementById("formInput");
 
-    if (!nisn) {
-      pesanError.textContent = "Silakan masukkan NISN terlebih dahulu.";
-      pesanError.style.display = "block";
-      return;
-    } else {
-      pesanError.style.display = "none";
-    }
+    const data = dataList.find(d=>d.nisn===nisn);
 
-    loading.style.display = "block";
-    resultDiv.style.display = "none";
-    cekBtn.style.display = "none";
-
-    const found = dataList.find(d => d.nisn === nisn);
-    setTimeout(() => showResult(found), 500);
-  }
-
-  function showResult(data) {
-    const resultDiv = document.getElementById("result");
-    const loading = document.getElementById("loading");
-    const keluarBtn = document.getElementById("keluarBtn");
-    const formInput = document.getElementById("formInput");
-
-    loading.style.display = "none";
-
-    if (!data) {
-      resultDiv.innerHTML = "<p style='color:red; font-weight:bold;'>Data tidak ditemukan. Pastikan NISN benar.</p>";
-      resultDiv.style.display = "block";
-      keluarBtn.style.display = "block";
+    if(!data){
+      result.innerHTML = "<b style='color:red'>Data tidak ditemukan</b>";
+      result.style.display="block";
+      keluarBtn.style.display="block";
       return;
     }
 
-    formInput.style.display = "none";
-
-    const statusLulus = data.status.toLowerCase() === "lulus";
-
-    resultDiv.innerHTML = `
-      <h3 style="text-align:center;">🎓 BUKTI KELULUSAN</h3>
-      <p><strong>Nama:</strong> ${data.nama}</p>
-      <p><strong>NISN:</strong> ${data.nisn}</p>
-      <p><strong>Tempat Lahir:</strong> ${data.tempatlahir}</p>
-      <p><strong>Tanggal Lahir:</strong> ${data.tanggallahir}</p>
-      <p><strong>Program Keahlian:</strong> ${data.jurusan}</p>
-      <p><strong>Status:</strong> <span style="color:${statusLulus ? 'green' : 'red'}; font-weight:bold;">${data.status}</span></p>
+    result.innerHTML = `
+      <h3>🎓 BUKTI KELULUSAN</h3>
+      <p>${data.nama}</p>
+      <p>NISN: ${data.nisn}</p>
+      <p>${data.tempat}, ${data.tanggal}</p>
+      <p>${data.jurusan}</p>
+      <p style="color:green"><b>${data.status}</b></p>
     `;
-
-    resultDiv.style.display = "block";
-    keluarBtn.style.display = "block";
-
-    if (statusLulus) {
-      const ucapan = `Selamat kepada ${data.nama}! Anda dinyatakan LULUS.`;
-      speakText(ucapan);
-      startFireworks();
-    }
+    result.style.display="block";
+    keluarBtn.style.display="block";
   }
 
-  function keluar() {
-    document.getElementById("token").value = "";
-    document.getElementById("result").style.display = "none";
-    document.getElementById("loading").style.display = "none";
-    document.getElementById("keluarBtn").style.display = "none";
-    document.getElementById("cekBtn").style.display = "block";
-    document.getElementById("pesanError").style.display = "none";
-    document.getElementById("formInput").style.display = "block";
+  window.keluar = function(){
+    location.reload();
   }
 
-  function speakText(text) {
-    if ('speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'id-ID';
-      speechSynthesis.speak(utterance);
-      }
-    }
+});
+</script>
 
-    function startFireworks() {
-      const canvas = document.getElementById('fireworksCanvas');
-      const ctx = canvas.getContext('2d');
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-
-      const particles = [];
-      const colors = ['#ff1744', '#f50057', '#d500f9', '#651fff', '#3d5afe', '#00b0ff', '#00e5ff', '#1de9b6', '#00e676', '#76ff03', '#ffea00', '#ff9100'];
-
-      function createParticle(x, y) {
-        for (let i = 0; i < 80; i++) {
-          particles.push({
-            x, y,
-            angle: Math.random() * 2 * Math.PI,
-            speed: Math.random() * 5 + 2,
-            radius: Math.random() * 4 + 2,
-            color: colors[Math.floor(Math.random() * colors.length)],
-            alpha: 1
-          });
-        }
-      }
-
-      function animate() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        particles.forEach((p, i) => {
-          p.x += Math.cos(p.angle) * p.speed;
-          p.y += Math.sin(p.angle) * p.speed;
-          p.alpha -= 0.015;
-          ctx.beginPath();
-          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-          ctx.fillStyle = p.color;
-          ctx.globalAlpha = p.alpha;
-          ctx.fill();
-          if (p.alpha <= 0) particles.splice(i, 1);
-        });
-        ctx.globalAlpha = 1;
-        if (particles.length > 0) requestAnimationFrame(animate);
-      }
-
-      for (let i = 0; i < 5; i++) {
-        setTimeout(() => {
-          const x = Math.random() * canvas.width * 0.8 + canvas.width * 0.1;
-          const y = Math.random() * canvas.height * 0.5 + canvas.height * 0.1;
-          createParticle(x, y);
-          animate();
-        }, i * 600);
-      }
-    }
-  </script>
+</body>
+</html>
