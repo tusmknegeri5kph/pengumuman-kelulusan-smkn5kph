@@ -1,247 +1,201 @@
-token,nisn,nama,asal,diterima,status
-SMK50907001,0106491734,Ahmad Darul,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907002,0105806498,Alpauzan,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907003,0107665112,Andini Puspitasari,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907004,0106278308,Anjelina,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907005,0107879987,Celsi Armadani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907006,0105140894,Chelsea Anggraini,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907007,0093917497,Chelsia Olyvia,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907008,3101088138,Devita Sari,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907009,0091591646,Dora Oktarina,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907010,0107417103,Elsi Aretha Lestari,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907011,3102141701,Enjel Sutiyawati,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907012,0103524797,Fika Indah Sari,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907013,0093678181,Gita Valetina,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907014,0099550834,Indah Oktavia Putri,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907015,0107086461,Muhamad Riski Alfarozi,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907016,0092408146,Muhammad Bayu,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907017,0102732670,Ririn Melisa,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907018,0105456718,Septa Mardalena,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907019,0093413197,Tiara,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907020,0091262936,Velli Okta Viona,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907021,0104161478,Vingki Dwi Amora,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907022,0081833603,Wiza Rahmayana,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907023,0106854745,Heni Lestari,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907024,0107919811,Maicel Zero,SMPN 1 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907025,0105118464,Adellia,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907026,0103574970,Anggun Dwi Putri,SMP NEGERI 01 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907027,0103612871,Bhima Anugrah,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907028,0107499955,Dinasti Aura Rachmi,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907029,0108660439,Dinda Arepa,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907030,0085845959,Fadila Trianjani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907031,3106613430,Fahri Monza,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907032,0106412327,Fitri Rahmadani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907033,3089203991,Galang Herianto,SMP MUHAMMADIYAH 2,SMK Negeri 5 Kepahiang,Lulus
-SMK50907034,3107946344,Jesicha Oktaryanti,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907035,0103219863,Juana Hermita Ariani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907036,0102018524,Maghpira Tri Maharani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907037,0102869486,Melsi,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907038,0107244814,Mutia Nurmala Dewi,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907039,0095565803,Nadia Fitri,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907040,0103586906,Nazhefa Ufairah,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907041,0115565086,Nazwa Rahmat Dania,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907042,0104639708,Nindy Sagita,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907043,0096895044,Padila Sapitri,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907044,0105166797,Pebi Kirana,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907045,0105724911,Pema Niko Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907046,,R. Al-Fikri Hidayat,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907047,0111990049,Ragil Al Qairy Muzaqqy,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907048,0105416447,Rahel Dinata,SMP QURAN DARUL MAARIF NU,SMK Negeri 5 Kepahiang,Lulus
-SMK50907049,0103163928,Regan Abi Mayu,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907050,0097783516,Renosta Desmiza,SMP NEGERI 3 PASEMAH AIR KERUH,SMK Negeri 5 Kepahiang,Lulus
-SMK50907051,0103428263,Rismala,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907052,0105106664,Satria Dinop Alfajar,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907053,0104454678,Sherli Amelia Saputri,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907054,0107184768,Tiansi Olivia,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907055,0105114255,Tiara,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907056,0108774588,Wimfi Difara,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907057,0114837243,Windy Novita Sari,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907058,0102451317,Yoba Muhammad Rehan Pratama,SMPN 21 BENGKULU UTARA,SMK Negeri 5 Kepahiang,Lulus
-SMK50907059,0107214867,Yosri Yosita,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907060,0102831645,Ade Reski Kitopio,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907061,3090299624,Aji Napas,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907062,0108490212,Amanda Krista Lovani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907063,0107532310,Arga Raffaza,SMP NEGERI 01 SEBERANG MUSI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907064,0093429329,Ariel Anan Dias Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907065,0102682547,Audy Grace Oktaviani,PKBM WIDYA KENCANA,SMK Negeri 5 Kepahiang,Lulus
-SMK50907066,0105934760,Aulia Kasih,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907067,0104041426,Aulia Rahmadani,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907068,0103218043,Bunga Ramana,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907069,0101603830,Chelsi Puspita Sari,SMP NEGERI 8 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907070,0097100640,Culfer Daim,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907071,0109013848,Dafa Al Akbar,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907072,3092798933,Desti Aira Putri,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907073,0095374245,Farel Surianto,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907074,0084576268,Farhan Fitriadi,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907075,0098338626,Fariski Erlangga,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907076,0108117664,Hani Fitri Ramadhani,SMPN 04 BENGKULU UTARA,SMK Negeri 5 Kepahiang,Lulus
-SMK50907077,0101731912,Jesica Anggraini,SMP NEGERI 01 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907078,3110611026,Jingga Angelina,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907079,3092384413,Keyrin Rizki Putri Vinoka,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907080,0092274423,Keysa Khafifah,SMP NEGERI 01 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907081,0108786235,M. Fahmi,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907082,0112439501,Meisza Saskia,SMP NEGERI 8 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907083,3099282702,Muhamad Fikri Putra Resian,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907084,0104688891,Mutiara Lestari,SMP NEGERI 05 BENGKULU TENGAH,SMK Negeri 5 Kepahiang,Lulus
-SMK50907085,0104649162,Nabila Aura Putri,SMP NEGERI 03 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907086,0101740679,Okta Sanjoyo,SMP NEGERI 03 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907087,0093690213,Panji Talori,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907088,0107646949,Parel,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907089,3100474862,Prengki Pratama,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907090,0098124229,Putra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907091,0102630738,Putri Bunga Marisah,SMP NEGERI 03 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907092,0102380839,Putu Ardika,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907093,0103538990,Putu Yogi Arimbawa,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907094,0116457386,Rama Pratama,SMP NEGERI 03 MUARA KEMUMU,SMK Negeri 5 Kepahiang,Lulus
-SMK50907095,0096426747,Redo Sapitra,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907096,0099347105,Riszki,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907097,0098816085,Riszko,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907098,0105860432,Rossy Agustian,SMP NEGERI 04 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907099,0102231132,Seliya Mardalena,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907100,0107528346,Tari Srifina,SMP NEGERI 04 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907101,3093135007,Tasia Alsipa,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907102,0103876521,Widia,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907103,,Citra Murniati,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907104,0106784616,Agnes Meilinda,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907105,0107581210,Anggel Resti Aulia,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907106,0102423169,Chelzhi Ulan Dari,SMP NEGERI 01 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907107,0096523553,Kesya Amanda,SMP NEGERI 8 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907108,0094049105,Nurulaini,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907109,0103083783,Puput Ulandari,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907110,0103427973,Rani Aulia Dwi Putri,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907111,0093653865,Ratika Citra Dewi,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907112,0109371637,Refa Salsabila,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907113,3107065491,Sapki Sapira,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907114,0104258192,Selpi Aglestia,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907115,0093084265,Septi Fitria Ambarwati,SMP MUHAMMADIYAH 2,SMK Negeri 5 Kepahiang,Lulus
-SMK50907116,0098582682,Suci Septiani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907117,0108013745,Verra Agreisyah Indah,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907118,0107876375,Wika Yulia Anindia,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907119,0094556495,Yosine Priska Amelia,SMP NEGERI 01 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907120,0102548353,Adri Arga Ramadani,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907121,0119990738,Afdal Zikri,SMP NEGERI 8 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907122,0105345414,Agus Pramono,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907123,0096987451,Ahmad Akbar,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907124,0109142671,Akbar Rapsanjani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907125,0091607470,Aldi Ikhsan,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907126,0097847017,Alfin Syahrullah,SMPTQ SALSABILA REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907127,0106744447,Ali Nopriyanto,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907128,0109693936,Alvaro Rahel Abulkarami,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907129,0101754519,Andre Erlangga,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907130,0097005993,Anugera M Karibet,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907131,0107344517,Arya Anugra Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907132,0102764007,Budio Hartono,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907133,0102115010,Carles Adetia,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907134,0091790777,Dandy Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907135,0106750617,David Dwi Andika,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907136,0106500193,Defin Apridoyo,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907137,0102635670,Dheby Zhaky Adevio,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907138,0129844593,Dimas Desta Wijaya,SMP NEGERI 09 BENGKULU TENGAH,SMK Negeri 5 Kepahiang,Lulus
-SMK50907139,0099656420,Dwi Muhammad Razel,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907140,0121338678,Eduwin Peratama,SMP NEGERI 31 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907141,0101484100,Fadil Adilla Pratama,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907142,0109704700,Farel,SMPN 8 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907143,0082050807,Fauzan Ramadhan,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907144,3102898988,Ficko,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907145,0093185970,Hajri Ependi,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907146,0102893504,Hardiansyah Anugera,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907147,0103412932,Ivan Aprillio,SMP NEGERI 10 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907148,0101823974,Jeli Ardiansyah,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907149,0104655495,Juliansyah Saputra,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907150,0101163554,M. Rafa Hardian Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907151,0097186925,M. Yusup Fhadillah,SMP NEGERI 8 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907152,0109291313,Marsel,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907153,0099365034,Muhammad Aidil Akbar,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907154,0104483261,Muhammad Raditia Saputra,SMP MUHAMMADIYAH 2,SMK Negeri 5 Kepahiang,Lulus
-SMK50907155,0106179654,Muhammad Rafael Al Iman,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907156,3104379266,Muhammad Rizky Sinaga,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907157,0103096251,Pandu Yonata,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907158,0108653365,Peli Delvia,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907159,0085617620,Perdian Adinata,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907160,,Pino Harianto,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907161,0097690993,Prengki Adi Pratama,SMP PGRI 2,SMK Negeri 5 Kepahiang,Lulus
-SMK50907162,0103139865,Putu Valentino Arda ,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907163,0105408441,Racka Febriandika,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907164,0106444023,Radit Prediansyah,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907165,0097237530,Rafa Abdullah Daud,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907166,0106291403,Rafi Aprialinsyah,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907167,0094049257,Rama Wijaya,SMP NEGERI 8 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907168,0101950916,Randi Aldiyansa,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907169,0109158806,Rangga Aiditya,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907170,0109740104,Ravel Erlangga,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907171,0096923246,Reang Adika Putra,SMP NEGERI 03 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907172,0099583913,Refaldo Fernandes,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907173,0098742598,Rehan Andreansa,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907174,0093163078,Rehan Rahman,SMP NEGERI 09 BENGKULU TENGAH,SMK Negeri 5 Kepahiang,Lulus
-SMK50907175,0091808785,Rendi Dwi Putra,SMP MUHAMMADIYAH 2,SMK Negeri 5 Kepahiang,Lulus
-SMK50907176,0109836096,Reza Aksa,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907177,0098927517,Ridho Ricardo,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907178,0104057646,Rifky Saputra,SMP NEGERI 03 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907179,0104250635,Riko Rikardo,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907180,0094892709,Riky Subarja,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907181,0104426401,Rizky Saputra,SMP NEGERI 01 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907182,0088134339,Rully Kurniawan,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907183,0103220679,Satria Ali Purnama Aji,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907184,0095311546,Viter Adrean,SMP NEGERI 02 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907185,3103158711,Yoan Prayoga,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907186,3093725974,Adam Al Maliki,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907187,0101997683,Aida Bunga Herawati,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907188,0105614731,Alan Gustian Ramadhani,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907189,0106602103,Atep Albari,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907190,0101529301,Deka Bima Juffrensu,SMP NEGERI 5 REJANG LEBONG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907191,0102802901,Edo Al-Fajri,SMP NEGERI 09 BENGKULU TENGAH,SMK Negeri 5 Kepahiang,Lulus
-SMK50907192,0091222757,Julian Sandi Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907193,0103243785,Juwanda Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907194,3104230311,M. Ifsya Syadifa,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907195,3104256268,Marsel,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907196,0102285631,Nazril Ilham Hairullah,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907197,0102952422,Novrico Yudhistira,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907198,0098535307,Panji Gusti Wijaya,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907199,0105122983,Parel,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907200,3109182023,Pebi Yantosi,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907201,0098711910,Raka Rahmadhani,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907202,3101593082,Rizki Abadi,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907203,0103086686,Rizki Adepio Sine,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907204,0105326780,Semi Pranata,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907205,0106836686,Teguh Firdaus,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907206,0108636625,Zevi Marzela,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907207,0104338051,Agung Nazzril Alfa Rezi,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907208,0106476249,Akbar Al Allamin,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907209,0108512448,Aldi Tio Pratama,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907210,,Alfauzan,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907211,0086345016,Alfinzah Gilang Bagas Kara,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907212,3099816417,Angga Saputra,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907213,3096332379,Aril Anggara,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907214,,Aril Pranata,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907215,0093497969,Bagas Patih,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907216,3099771808,Bintang Ganda Prasetya,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907217,3107253065,Defril Aditio,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907218,3100452922,Dewa Chayadi,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907219,0107101875,Dimas Almuzaqy,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907220,0083230669,Dimas Ariansyah,SMP Negeri 2 Kepahiang,SMK Negeri 5 Kepahiang,Lulus
-SMK50907221,,Diona Apriansyah,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907222,3098512489,Fino Saputra,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907223,0109487481,Freti Indah Aurelia,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907224,0109923608,Frisky Wibawa Putra,SMP NEGERI 09 BENGKULU TENGAH,SMK Negeri 5 Kepahiang,Lulus
-SMK50907225,3090868165,Joko Supriadi,SMP NEGERI 01 MERIGI,SMK Negeri 5 Kepahiang,Lulus
-SMK50907226,3100118921,Jona Juliyantoni,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907227,3109101354,M. Fahri Fahreza,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907228,0101218269,M. Faturrahman Izam Baimsyah,SMP NEGERI 03 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907229,0105017537,M. Nizam Apriansah,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907230,0106858727,Marfel Anggara Saputra,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907231,0098186381,Muhammad Ilham Arya,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907232,0097002017,Oka Putra Pratama,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907233,0091918082,Pagel Alpiansyah,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907234,3101830330,Rafli Anggara,SMP NEGERI 02 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907235,3104202052,Ramadan Apriano,MTSS BAITUL MAKMUR CURUP,SMK Negeri 5 Kepahiang,Lulus
-SMK50907236,0099624964,Ranggi Prasetio Pratama,SMP NEGERI 01 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907237,3116173688,Repal Diobagite,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907238,,Ridho Rahmat Dani,,SMK Negeri 5 Kepahiang,Lulus
-SMK50907239,0095301282,Riski Apriansa,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907240,0101389395,Satria Alam,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907241,0082677549,Yoga Darmawan,MTSN 1 KEPAHIANG,SMK Negeri 5 Kepahiang,Lulus
-SMK50907242,0108598559,Yolan Viona,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907243,0103195462,Zaki Kristian,SMP NEGERI 01 UJAN MAS,SMK Negeri 5 Kepahiang,Lulus
-SMK50907244,0097358786,Enda Alian Saputra,SMP Negeri 8 Rejang Lebong,SMK Negeri 5 Kepahiang,Lulus
-SMK50907245,,M.Roki Faisyal,SMP Negeri 8 Rejang Lebong,SMK Negeri 5 Kepahiang,Lulus
-SMK50907246,0087586620,Fanzi Kurniawan,SMP Negeri 01 Ujan Mas,SMK Negeri 5 Kepahiang,Lulus
+nisn,nama,tempatlahir,tanggallahir,programkeahlian,status
+0084224859 ,Ahmad Fauzan,Pagar Gunung,07 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0088561619 ,Andra Septa Pradita,Suro Bandung,06 Agustus 2008,Produksi dan Siaran Program Televisi,Lulus
+0086807583,Dea Amanda,Pulo Geto,31 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0076542648 ,Dewa Dwi Andika,Muara Langkap,16 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0083678568,Dianra Kirana,Daspetah,12 Mei 2007,Produksi dan Siaran Program Televisi,Lulus
+0084763840 ,Diva Piolesi,Kelobak,05 Juli 2008,Produksi dan Siaran Program Televisi,Lulus
+0086660935 ,Fahri Marsel,Kepahiang,13 Januari 2008,Produksi dan Siaran Program Televisi,Lulus
+0065301357 ,Fauzan Maulana,Ujan Mas ,06 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0087181636 ,Gania Zaturahmah,Ujan Mas Bawah,15 Oktober 2006,Produksi dan Siaran Program Televisi,Lulus
+0082041450 ,Gita Miranda,Curup,20 Januari 2008,Produksi dan Siaran Program Televisi,Lulus
+0089857998 ,Ibra Ribery,Suro Muncar,06 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0082378782 ,Ines Ajeng Adelia,Pelangkian,20 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0077913706 ,M.Faren Agustin,Pekalongan,14 Oktober 2008,Produksi dan Siaran Program Televisi,Lulus
+0088802365 ,Marcel Anugrah Pratama,Pungguk Lalang,25 Desember 2008,Produksi dan Siaran Program Televisi,Lulus
+0087579523 ,Miranti Agustin,Ujan Mas,4 Agustus 2007,Produksi dan Siaran Program Televisi,Lulus
+0071772840 ,Monalisa Ramadan,Curup,9 Desember 2008,Produksi dan Siaran Program Televisi,Lulus
+0088492743 ,Muhammad Difa Realdi,Suro Muncar,14 Agustus 2008,Produksi dan Siaran Program Televisi,Lulus
+0078496007 ,Natya Maharani,Bogor,06 Oktober 2007,Produksi dan Siaran Program Televisi,Lulus
+0076403171 ,Oni Afriyanti,Kelobak,17 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0096877639,Rindiyani,Pekalongan,27 Oktober 2007,Produksi dan Siaran Program Televisi,Lulus
+0083096549 ,Selsi Lestari,Daspetah,28 Januari 2008,Produksi dan Siaran Program Televisi,Lulus
+0071649945 ,Sema Rehadah Rehan,Suro Ilir,04 Januari 2009,Produksi dan Siaran Program Televisi,Lulus
+0075863532,Siska Herawati,Ujan Mas Atas,08 Juni 2008,Produksi dan Siaran Program Televisi,Lulus
+0071062411 ,Sonia Saskia Putri,Cugung Lalang,24 April 2007,Produksi dan Siaran Program Televisi,Lulus
+0073004218 ,Sutrivi Kartika Sari,Ujan Mas Atas,24 Juni 2007,Produksi dan Siaran Program Televisi,Lulus
+0084051711,Aldi Pio,Batu Ampar,20 April 2008,Produksi dan Siaran Program Televisi,Lulus
+0076165739,Azis Adi Tama,Bukit Barisan,13 Mei 2008,Produksi dan Siaran Program Televisi,Lulus
+0086117099,Depia Fisesah,Ujan Mas,24 Juli 2008,Produksi dan Siaran Program Televisi,Lulus
+0084994080,Diki Apriyanto,Pagar Gunung,17 April 2008,Produksi dan Siaran Program Televisi,Lulus
+3085033926,Dinda Maroan Rasokina Harahap ,Kepahiang,28 Maret 2008,Produksi dan Siaran Program Televisi,Lulus
+0084263122,Elda Marita,Pekalongan,22 Juni 2008,Produksi dan Siaran Program Televisi,Lulus
+0086932568,Ficho Raditia Darmawan,Napal,05 April 2008,Produksi dan Siaran Program Televisi,Lulus
+0088135843,Gleen Virgio,Pelangkian,03 September 2007,Produksi dan Siaran Program Televisi,Lulus
+0085352388,Hikma Arumi,Pagar Gunung,10 Juni 2008,Produksi dan Siaran Program Televisi,Lulus
+0085864880,Intan Lestari,Pagar Gunung,05 September 2008,Produksi dan Siaran Program Televisi,Lulus
+0083632084,Kevin Pagasta,Suro Lembak,15 Juli 2008,Produksi dan Siaran Program Televisi,Lulus
+0083884515,Kevin Pioriski,Ujan Mas,17 Juli 2007,Produksi dan Siaran Program Televisi,Lulus
+0084333209,Kheyla Yofita Sari,Suro Baru,10 Agustus 2008,Produksi dan Siaran Program Televisi,Lulus
+0083231479,Muhamad Arga,Rejang Lebong,06 April 2008,Produksi dan Siaran Program Televisi,Lulus
+0083808390,Nhabila Ayu Sherly Masyita,Suro Baru,02 September 2008,Produksi dan Siaran Program Televisi,Lulus
+0076539313,Putri Maini,Jambi,23 Mei 2007,Produksi dan Siaran Program Televisi,Lulus
+0086251606,Reza Purnama Jaya,Curup,07 Desember 2008,Produksi dan Siaran Program Televisi,Lulus
+0083615079,Ridan Saputra,Suro Bali,16 Mei 2008,Produksi dan Siaran Program Televisi,Lulus
+0075871368,Rizky Abdullah Pratama,Ujan Mas Atas,24 Desember 2007,Produksi dan Siaran Program Televisi,Lulus
+0086613352,Sasqia Maharani,Bandar Lampung,10 April 2008,Produksi dan Siaran Program Televisi,Lulus
+0078454107,Sinta Loresta,Susup,15 April 2007,Produksi dan Siaran Program Televisi,Lulus
+0094794952,Sona Sela Nabila,Ujan Mas Bawah,05 Maret 2009,Produksi dan Siaran Program Televisi,Lulus
+00748441148,Welly Agustin,Pungguk Meranti,07 Agustus 2007,Produksi dan Siaran Program Televisi,Lulus
+0088507059,Anggun Gusti Inda Pratama,Tanjung agung,17 Agustus 2009,Perhotelan,Lulus
+0084469764,Chelsae Junita Dewi,Air Kelinsar,12 Juni 2008,Perhotelan,Lulus
+081201868,Deca Sekar Sari,Pulo Geto Baru,05 Juli 2008,Perhotelan,Lulus
+0084349707,Dina Herlina,Kelobak,26 Februari 2008,Perhotelan,Lulus
+0086797882,Fadli Ilham Apriyansa,Suro Ilir,16 April 2008,Perhotelan,Lulus
+3085841465,Farel Vanfedrika,Meranti Jaya,01 Januari 2008,Perhotelan,Lulus
+0072342643,Haikal Putra Alvikri,Meranti Jaya,11 Agustus 2007,Perhotelan,Lulus
+0088083783,Ibra Al Fariel,Durian Depun,12 April 2008,Perhotelan,Lulus
+0087426323,Keyla Wahyuni,Curup,26 Juni 2008,Perhotelan,Lulus
+0081942537,M. Al Iklas,Tertik,28 Juni 2008,Perhotelan,Lulus
+0081987078,Monica Puspitasari,Pungguk Meranti,28 Maret 2008,Perhotelan,Lulus
+0076579601,Muhammad Wahyu,Jakarta,25 Mei 2007,Perhotelan,Lulus
+0081934023,Rahmat Riski,Tempel Rejo,06 Juni 2008,Perhotelan,Lulus
+0081907968,Rasti Lestari,Kelobak,12 Januari 2008,Perhotelan,Lulus
+3075184156,Ridwansyah Sulaiman,Durian Depun,17 Desember 2007,Perhotelan,Lulus
+0081658958,Salsabila Ramadani,Kepahiang,10 September 2008,Perhotelan,Lulus
+0074527422,Temi Rahadi,Ujan Mas Atas,12 November 2007,Perhotelan,Lulus
+0089495108,Wahyu Muhammad Raka,Pungguk Meranti,14 Maret 2008,Perhotelan,Lulus
+3084521891,Wishnu Raditia Nugraha,Curup,13 September 2008,Perhotelan,Lulus
+0061107059,Yusuf Riyandi,Kepahiang,20 Desember 2006,Perhotelan,Lulus
+0084621713,Aldo Saputra,Suro Ilir,06 Januari 2008,Perhotelan,Lulus
+0072767329,Andini,Bukit Barisan,04 Desember 2007,Perhotelan,Lulus
+0084229878,Arga Daffa Ferdian,Tanjung Alam,28 Juli 2008,Perhotelan,Lulus
+0083783064,Azizah Triamanda ,Pajar Tinggi,25 Oktober 2008,Perhotelan,Lulus
+0084796874,Bimo Alfanza,Pagar Gunung,03 Mei 2008,Perhotelan,Lulus
+0082883179,Brenda Cinta Kirana,Tanjung Alam,25 Juni 2008,Perhotelan,Lulus
+0079218738,Dela Sri Rahayu,Jambat Akar Kec Semidang Alas Maras,05 Desember 2007,Perhotelan,Lulus
+0082606354,Echania Amoza,Tebat Monok,21 Maret 2008,Perhotelan,Lulus
+0087950514,Elsye Salsabila,Curup,05 Juni 2008,Perhotelan,Lulus
+0085038345,Fajri Erlangga,Meranti Jaya,03 Januari 2008,Perhotelan,Lulus
+0082110317,Ilham Al. Fikri,Meranti Jaya,29 Juni 2008,Perhotelan,Lulus
+0074096787,Irfan Agustian,Lubuk Ubar,02 Agustus 2007,Perhotelan,Lulus
+3073183539,Jona Mario Akbar,Suro Baru,23 Maret 2007,Perhotelan,Lulus
+0076440102,Manda Yulistia,Pekalongan,10 Juli 2006,Perhotelan,Lulus
+0082611706,Rika Yuli Pratiwi,Suro Bali,20 Juli 2008,Perhotelan,Lulus
+0072544231,Ririn Agustin,Sinar Gunung,17 Agustin 2007,Perhotelan,Lulus
+3079479034,Riski Ramadan,Meranti Jaya,19 September 2007,Perhotelan,Lulus
+3076432978,Sulton Abdul Aziz,Suro Baru,19 Desember 2007,Perhotelan,Lulus
+0071359772,Alsi Pakuljanah,Tanjung Alam,14 Juli 2007,Bisnis Ritel,Lulus
+0071166459 ,Anisa Riski Sahbila,Daspetah,29 Agustus 2007,Bisnis Ritel,Lulus
+0074758488,Atika Rohaya,Pekalongan,04 Juli 2007,Bisnis Ritel,Lulus
+0087741228,Bunga Putri Lestari,Ujan Mas Bawah,03 Januari 2008,Bisnis Ritel,Lulus
+0089348146,Cendi Regina Putri,Daspeta,28 November 2008,Bisnis Ritel,Lulus
+0068345823,Dena Marsela,Ujan Mas ,16 Agustus 2006,Bisnis Ritel,Lulus
+0074653435,Diva Affifa,Pekalongan,02 Desember 2007,Bisnis Ritel,Lulus
+0086394861,Hadija Ulva Dwi Melendri,Daspeta,09 Mei 2008,Bisnis Ritel,Lulus
+0064885720,Kezia Aulia,Ujan Mas Atas,4 Desember 2007,Bisnis Ritel,Lulus
+0063981575,Kinkan Tohara,Curup,21 Agustus 2006,Bisnis Ritel,Lulus
+0071238990,Lilis S. Melinda,,28 Mei 2007,Bisnis Ritel,Lulus
+0088419515,Marsela Yuwana Nugraheni,Malang,08 Maret 2008,Bisnis Ritel,Lulus
+0074925081,Meli Apriyanti,Ujan Mas Atas,27 April 2007,Bisnis Ritel,Lulus
+0089036714,Monika Depita Lia,Rejang Lebong,17 April 2008,Bisnis Ritel,Lulus
+0079211584,Pipta Lestari,Daspetah,17 Agustus 2007,Bisnis Ritel,Lulus
+0082007323,Rasti Aprianti,Daspetah II,01 April 2008,Bisnis Ritel,Lulus
+0088749952,Rena Oktaria,Daspetah II,02 Oktober 2008,Bisnis Ritel,Lulus
+0075092527,Yoni Oktapiah,Air Hitam,04 Mei 2007,Bisnis Ritel,Lulus
+0082082317,Zahratus Sisera,Air Putih Lama,20 April 2008,Bisnis Ritel,Lulus
+0077324857,Zella Aprilliya,Meranti Jaya,24 April 2007,Bisnis Ritel,Lulus
+0087110586,Abim Suryo,Pagar Gunung,10 Juni 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0077292179,Aldi,Ujan Mas Bawah,10 Maret 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0066787537,Ayu Permadani,Daspetah,10 Agustus 2006,Teknik Instalasi Tenaga Listrik,Lulus
+0087653189,Beni,Bukit Barisan,14 September 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0052596394,Beno Aryanto,Susup,11 Mei 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0082851565,Beri,Daspetah,17 Maret 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0092219655,Candra Pratama,Susup,11 Mei 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0087367388,Danu Anugrah,Dusun Kepahiang,12 Juni 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0085977867,Danur Windo,Daspetah,09 Maret 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0073349863,Diko Astrea,Daspetah,03 Desember 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0086745422,Dira Ade Saputra,Suroilir,14 Agustus 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0078524714,Duta Anugrah,Ujan Mas,14 Desember 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0071969284,Farel,Daspetah,15 Maret 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0081230592,Febriyanti Nurjana,Pekalongan,13 Februari 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0088942614,Ficri Sobirin,Suro Baru,18 April 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0069401217,Ipan Mahendra,Karang Anyar,18 April 2006,Teknik Instalasi Tenaga Listrik,Lulus
+0063981826,Kevin Melandri,Suro Baru,18 Mei 2006,Teknik Instalasi Tenaga Listrik,Lulus
+0078078964,Muhammad Arzil,Suro Muncar,28 Desember 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0077622832,Muhammad Arzim,Suro Muncar,28 Desember 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0063183537,Nanda,Air Lanang,31 Maret 2006,Teknik Instalasi Tenaga Listrik,Lulus
+0085881332,Niko Yosine,Kelobak,06 Juli 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0088062974,Raditia Firmansyah,Suro Baru,29 Mei 2008,Teknik Instalasi Tenaga Listrik,Lulus
+0074571005,Reyo Pranata,Kepahiang,03 Novenber 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0074245691,Tedi Ramadan,Karang Anyar,17 Oktober 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0077388355,Wahyu Saputra,Daspeta,17 Juni 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0078156562,Zahra Oktavia,Suro Ilir,19 September 2007,Teknik Instalasi Tenaga Listrik,Lulus
+0077373694,Abdallazi,Tanjung Heran,19 September 2007,Teknik Kendaraan Ringan,Lulus
+0076280335,Adit Tia Ramadhan,Kepahiang,12 Oktober 2007,Teknik Kendaraan Ringan,Lulus
+0079021396,Aditia Sugara,Suro Ilir,8 Desember 2007,Teknik Kendaraan Ringan,Lulus
+0085918228,Al Hafis Paturahman,Curup,04 April 2008,Teknik Kendaraan Ringan,Lulus
+0085317039,Alzaki April Liando,Ujan Mas Atas,21 April 2008,Teknik Kendaraan Ringan,Lulus
+0074256530,DERI ADIPIO,UJAN MAS BAWAH,01 Desember 2007,Teknik Kendaraan Ringan,Lulus
+3083336814,Aurely Al Ghazaly,Pelangkian,10 Februari 2008,Teknik Kendaraan Ringan,Lulus
+0073180301,Dhiaz Rivkan Alvaro,Bumi Sari,31 Desember 2007,Teknik Kendaraan Ringan,Lulus
+0077204335,Dimas Aji Pagestu,Kepahiang,25 Desember 2007,Teknik Kendaraan Ringan,Lulus
+0072099226,Epandi,Ujan Mas Bawah,21 Juli 2007,Teknik Kendaraan Ringan,Lulus
+0089743130,Fahri Azahari,Ngulak II,29 Maret 2008,Teknik Kendaraan Ringan,Lulus
+0081015132,Farel Hasib Alfaqi,Tanjung Alam,08 Februari 2008,Teknik Kendaraan Ringan,Lulus
+3086495648,Ferdian Kholiq Giolova,Tanjung Alam,18 Januari 2008,Teknik Kendaraan Ringan,Lulus
+0077286043,Galang Lovta Risnando,Ujan Mas,11 Juni 2007,Teknik Kendaraan Ringan,Lulus
+0063337052,Hendri Saputra,Ujan Mas Bawah,5 Oktober 2006,Teknik Kendaraan Ringan,Lulus
+0084405686,Horizon Pratama,Kelobak,06 April 2008,Teknik Kendaraan Ringan,Lulus
+3086979384,M.Aziz Akbar,Durian Depun,19 Agustus 2008,Teknik Kendaraan Ringan,Lulus
+0071513495,Milan Raja Danuarta,Suro Baru,13 Mei 2007,Teknik Kendaraan Ringan,Lulus
+0075084179,Muhammad Radi,Kepahiang,06 April 2007,Teknik Kendaraan Ringan,Lulus
+0089868974,Padli Juliansyah,Kepahiang,24 Juli 2008,Teknik Kendaraan Ringan,Lulus
+0088016820,Pajri Julian,Kepahiang,24 Juli 2008,Teknik Kendaraan Ringan,Lulus
+0081473144,Pepen,Pagar Gunung,01 Juli 2008,Teknik Kendaraan Ringan,Lulus
+0084049980,Prayoga Maulana,Pekalongan,21 Mei 2008,Teknik Kendaraan Ringan,Lulus
+0083383884,Rafly Hardian Saputra,Pensiunan,23 Juli 2008,Teknik Kendaraan Ringan,Lulus
+0086162217,Rahmat Fadila,Ujan Mas,29 November 2008,Teknik Kendaraan Ringan,Lulus
+0075568829,Rezky Okta Fadli,Solok,10 Oktober 2007,Teknik Kendaraan Ringan,Lulus
+0068120214,Yuliawati,Sosokan Taba,19 Maret 2006,Teknik Kendaraan Ringan,Lulus
+0081140898,Zidan Ambaroba                                                                                                                                                                                                                                                                                         ,Tanjung Alam,07 Juli 2008,Teknik Kendaraan Ringan,Lulus
+0083557601,Aditia Ananda Riski,Kepahiang,09 September 2008,Teknik Sepeda Motor,Lulus
+0052465871,Agus Herliansyah,Curup,14 Agustus 2005,Teknik Sepeda Motor,Lulus
+0082704336,Angges Yolanda,Curup,27 Mei 2008,Teknik Sepeda Motor,Lulus
+0082010776,Ardiansyah,Susup,30 Agustus 2008,Teknik Sepeda Motor,Lulus
+0089321662,Ceri Raflisya,Rejang Lebong,27 Februari 2008,Teknik Sepeda Motor,Lulus
+0072953798,Defiq Dwi Nofrian,Pekalongan,05 November 2007,Teknik Sepeda Motor,Lulus
+0071034047,Dimas Vino Fernando,Suro Muncar,14 Juli 2007,Teknik Sepeda Motor,Lulus
+0079451665,Farel Heliansyah,Rantau Panjang,09 Agustus 2007,Teknik Sepeda Motor,Lulus
+0071818259,Fauzan Alfikro,Curup,02 Oktober 2007,Teknik Sepeda Motor,Lulus
+0086747532,Govin Pramujja,Kepahiang,23 September 2008,Teknik Sepeda Motor,Lulus
+0086015997,Jendi Barelfi,Lubuk Penyamun,17 Juni 2008,Teknik Sepeda Motor,Lulus
+0087432074,Langit Mel Saputra,Ujan Mas,19 September 2008,Teknik Sepeda Motor,Lulus
+0085649664,Mitzi Arka Lengga,Daspetah,15 Januari 2008,Teknik Sepeda Motor,Lulus
+0084205778,Muhammad Akbar,Pagar Gunung,30 Juli 2008,Teknik Sepeda Motor,Lulus
+0054676902,Nopri Nanda .S,Pungguk Meranti,26 September 2005,Teknik Sepeda Motor,Lulus
+0084162349,Nur Indah Syahfitri,Pekalongan,22 Juni 2008,Teknik Sepeda Motor,Lulus
+0067028048,Piter Tri Angga Saputra,Tanjung Alam,26 Juni 2006,Teknik Sepeda Motor,Lulus
+0079549820,Rahmad Qurniady Idha,Curup,31 Desember 2007,Teknik Sepeda Motor,Lulus
+0083248864,Raihan Rizki Mustakim,Curup,15 Agustus 2008,Teknik Sepeda Motor,Lulus
+0079949095,Rehan Algi Fari,Pelangkian,10 November 2007,Teknik Sepeda Motor,Lulus
+0078048819,Reven Savero,Daspetah,10 Juli 2007,Teknik Sepeda Motor,Lulus
+0071565594,Riski Aditia,Ujan Mas Atas,10 Juli 2007,Teknik Sepeda Motor,Lulus
+0085030539,Sajirun Abi Talib,Tanjung Dalam,20 Februari 2008,Teknik Sepeda Motor,Lulus
+0088896418,Topi Hidayat,Kelobak,03 Februari 2008,Teknik Sepeda Motor,Lulus
+0082858620,Trio Widianto,Pekalongan,15 April 2008,Teknik Sepeda Motor,Lulus
+0087638391,Yoga Prayitno,Karang Anyar,11 Oktober 2008,Teknik Sepeda Motor,Lulus
+0083514704,Dela Nanda,Daspetah,09 Juni 2008,Teknik Kecantikan Kulit dan Rambut,Lulus
+0051217833,Intan Nayla Mahari ,Muko-Muko,02 Januari 2009,Teknik Kecantikan Kulit dan Rambut,Lulus
+0084585378,Malvin Padilah,Daspetah,18 Juli 2008,Teknik Kecantikan Kulit dan Rambut,Lulus
+3089409692,Mellya Utami,Curup,30 Oktober2008,Teknik Kecantikan Kulit dan Rambut,Lulus
+0084061575,Pingka,Rejang Lebong,30 Juli 2008,Teknik Kecantikan Kulit dan Rambut,Lulus
+009600184,Riski Wulan Dari,Tanjung Dalam,18 Maret 2009,Teknik Kecantikan Kulit dan Rambut,Lulus
+0064971481 ,Aldo Pernando,Pungguk Meranti,03 Oktober 2006,Agribisnis Lanskap dan Pertamanan,Lulus
+0078623505,APTA SYAPUTRA,Babat Musi Rawas,18 Agustus 2007,Agribisnis Lanskap dan Pertamanan,Lulus
+0074106621 ,Jonatan Dwi Aditio,Tanjung Alam,12 Desember 2007,Agribisnis Lanskap dan Pertamanan,Lulus
+0086448379 ,M. Ilham Agustio,DURIAN DEPUN,11 Agustus 2008,Agribisnis Lanskap dan Pertamanan,Lulus
+0079884554,Muhamad Albet,Pungguk Meranti,08 Maret 2007,Agribisnis Lanskap dan Pertamanan,Lulus
+0085462475,Rehan Arinata,Pulo Geto,28 Desember 2009,Agribisnis Lanskap dan Pertamanan,Lulus
+0071277812,Satria Benarivo Ramadan,CURUP,04 Oktober 2007,Agribisnis Lanskap dan Pertamanan,Lulus
+3086311912,Yolan Febyola,Meranti Jaya,04 Agustus 2008,Agribisnis Lanskap dan Pertamanan,Lulus
