@@ -177,36 +177,137 @@ document.addEventListener("DOMContentLoaded", function(){
 
   window.checkGraduation = function(){
     const nisn = document.getElementById("token").value.trim();
-    const result = document.getElementById("result");
+    const loading = document.getElementById("loading");
+    const resultDiv = document.getElementById("result");
+    const cekBtn = document.getElementById("cekBtn");
     const keluarBtn = document.getElementById("keluarBtn");
+    const pesanError = document.getElementById("pesanError");
+    const formInput = document.getElementById("formInput");
 
     const data = dataList.find(d=>d.nisn===nisn);
 
-    if(!data){
-      result.innerHTML = "<b style='color:red'>Data tidak ditemukan</b>";
-      result.style.display="block";
-      keluarBtn.style.display="block";
+    if (!nisn) {
+      pesanError.textContent = "Silakan masukkan NISN terlebih dahulu.";
+      pesanError.style.display = "block";
+      return;
+    } else {
+      pesanError.style.display = "none";
+    }
+
+    loading.style.display = "block";
+    resultDiv.style.display = "none";
+    cekBtn.style.display = "none";
+
+    const found = dataList.find(d => d.nisn === nisn);
+    setTimeout(() => showResult(found), 500);
+  }
+
+  function showResult(data) {
+    const resultDiv = document.getElementById("result");
+    const loading = document.getElementById("loading");
+    const keluarBtn = document.getElementById("keluarBtn");
+    const formInput = document.getElementById("formInput");
+
+    loading.style.display = "none";
+
+    if (!data) {
+      resultDiv.innerHTML = "<p style='color:red; font-weight:bold;'>Data tidak ditemukan. Pastikan NISN benar.</p>";
+      resultDiv.style.display = "block";
+      keluarBtn.style.display = "block";
       return;
     }
 
-    result.innerHTML = `
-      <h3>🎓 BUKTI KELULUSAN</h3>
-      <p>${data.nama}</p>
-      <p>NISN: ${data.nisn}</p>
-      <p>${data.tempat}, ${data.tanggal}</p>
-      <p>${data.jurusan}</p>
-      <p style="color:green"><b>${data.status}</b></p>
+    formInput.style.display = "none";
+
+    const statusLulus = data.status.toLowerCase() === "lulus";
+
+    resultDiv.innerHTML = `
+      <h3 style="text-align:center;">🎓 BUKTI KELULUSAN</h3>
+      <p><strong>Nama:</strong> ${data.nama}</p>
+      <p><strong>NISN:</strong> ${data.nisn}</p>
+      <p><strong>Tempat Lahir:</strong> ${data.tempatlahir}</p>
+      <p><strong>Tanggal Lahir:</strong> ${data.tanggallahir}</p>
+      <p><strong>Program Keahlian:</strong> ${data.jurusan}</p>
+      <p><strong>Status:</strong> <span style="color:${statusLulus ? 'green' : 'red'}; font-weight:bold;">${data.status}</span></p>
     `;
-    result.style.display="block";
-    keluarBtn.style.display="block";
+
+    resultDiv.style.display = "block";
+    keluarBtn.style.display = "block";
+
+    if (statusLulus) {
+      const ucapan = `Selamat kepada ${data.nama}! Anda dinyatakan LULUS.`;
+      speakText(ucapan);
+      startFireworks();
+    }
   }
 
-  window.keluar = function(){
-    location.reload();
+  function keluar() {
+    document.getElementById("token").value = "";
+    document.getElementById("result").style.display = "none";
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("keluarBtn").style.display = "none";
+    document.getElementById("cekBtn").style.display = "block";
+    document.getElementById("pesanError").style.display = "none";
+    document.getElementById("formInput").style.display = "block";
   }
 
-});
-</script>
+  function speakText(text) {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'id-ID';
+      speechSynthesis.speak(utterance);
+      }
+    }
+
+    function startFireworks() {
+      const canvas = document.getElementById('fireworksCanvas');
+      const ctx = canvas.getContext('2d');
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const particles = [];
+      const colors = ['#ff1744', '#f50057', '#d500f9', '#651fff', '#3d5afe', '#00b0ff', '#00e5ff', '#1de9b6', '#00e676', '#76ff03', '#ffea00', '#ff9100'];
+
+      function createParticle(x, y) {
+        for (let i = 0; i < 80; i++) {
+          particles.push({
+            x, y,
+            angle: Math.random() * 2 * Math.PI,
+            speed: Math.random() * 5 + 2,
+            radius: Math.random() * 4 + 2,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            alpha: 1
+          });
+        }
+      }
+
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach((p, i) => {
+          p.x += Math.cos(p.angle) * p.speed;
+          p.y += Math.sin(p.angle) * p.speed;
+          p.alpha -= 0.015;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+          ctx.fillStyle = p.color;
+          ctx.globalAlpha = p.alpha;
+          ctx.fill();
+          if (p.alpha <= 0) particles.splice(i, 1);
+        });
+        ctx.globalAlpha = 1;
+        if (particles.length > 0) requestAnimationFrame(animate);
+      }
+
+      for (let i = 0; i < 5; i++) {
+        setTimeout(() => {
+          const x = Math.random() * canvas.width * 0.8 + canvas.width * 0.1;
+          const y = Math.random() * canvas.height * 0.5 + canvas.height * 0.1;
+          createParticle(x, y);
+          animate();
+        }, i * 600);
+      }
+    }
+  </script>
 
 </body>
 </html>
